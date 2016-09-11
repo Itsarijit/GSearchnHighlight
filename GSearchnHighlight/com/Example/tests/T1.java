@@ -45,7 +45,7 @@ public class T1 {
 
   @Test
   public void testT1() throws Exception {
-    driver.get("http://www.google.co.in");
+    driver.get("http://www.google.com");
     //driver.findElement(By.cssSelector("form")).click();
     // Find the text input element by its name
     WebElement element = driver.findElement(By.name("q"));
