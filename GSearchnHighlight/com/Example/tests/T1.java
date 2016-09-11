@@ -71,8 +71,8 @@ public class T1 {
     // Should see: "cheese! - Google Search"
     System.out.println("Page title is: " + driver.getTitle());
 System.out.println("Br2");
+System.out.println("Br3");
 System.out.println("Br4");
-
   }
   public static void scrollToNhighlight(WebDriver driver, By by) throws InterruptedException {
 	WebElement element = driver.findElement(by);	
